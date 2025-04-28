@@ -33,6 +33,7 @@ app.get('/css/main.css', (req, res)=> {
 // app.patch;   //pakoreguoti viena savybe
 // app.delete() // trinti
 
+
 app.listen(port, () => {
   console.log(`Server is running: http://localhost:${port}/`);
 });
