@@ -16,7 +16,7 @@ if (formDOM) {
 
     
 
-    const result = await fetch('/api/text', {
+    const result = await fetch('./api/text', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
